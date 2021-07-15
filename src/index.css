@@ -128,6 +128,14 @@ h4
     font-weight: 600;
     padding-top: 10px;
     padding-bottom: 10px;
+    transition: all 0.5s;
+}
+
+.btn-red:hover
+{
+    background: #fff;
+    color: #EA0B13 !important;
+    border: 1px solid #EA0B13;
 }
 
 .btn-blue
@@ -138,6 +146,13 @@ h4
     font-weight: 600;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.btn-blue:hover
+{
+    background: #fff;
+    color: #0772BA !important;
+    border: 1px solid #0772BA;
 }
 
 .points li
