@@ -3,7 +3,7 @@ import React from 'react';
 export const ReviewForm = () => {
     return (
         <>
-          <section className="review__form pt-md-5 pb-md-5">
+          <section className="review__form pt-md-5 pt-5 pb-md-5 pb-2">
 
             <div className="container">
 
@@ -37,7 +37,7 @@ export const ReviewForm = () => {
 
                         <div className="col-md-6">
 
-                        <label className="font-weight-bold" htmlFor="">
+                        <label className="font-weight-bold mt-md-0 mt-4" htmlFor="">
                             Last Name * </label>    
                             <input className="form-control" type="text" />
   
@@ -45,13 +45,13 @@ export const ReviewForm = () => {
 
                         <div className="col-md-12 mt-md-4">
 
-                        <label className="font-weight-bold" htmlFor="">
+                        <label className="font-weight-bold mt-md-0 mt-4" htmlFor="">
                             Email * </label>    
                             <input className="form-control" required type="email" />
   
                         </div>
 
-                        <div className="col-md-12 mt-md-4">
+                        <div className="col-md-12 mt-md-4 mt-4">
 
                         <label className="font-weight-bold" htmlFor="">
                             How do you rate our professionalism? </label>    
@@ -60,25 +60,25 @@ export const ReviewForm = () => {
 
                             <div className="row">
 
-                             <div className="col-md-3">
+                             <div className="col-md-3 col-6">
 
                              <input type="radio" value="Very Satisfied" name="value" placeholder="Very Satisfied" /> Very Satisfied
                             
                              </div>
 
-                             <div className="col-md-3">
+                             <div className="col-md-3 col-6">
                              <input type="radio" value="Satisfied" name="value" placeholder="Very Satisfied" /> Very Satisfied
                             
                              </div>
 
-                             <div className="col-md-3">
+                             <div className="col-md-3 col-6">
 
                              <input type="radio" value="Unsatisfied" name="value" placeholder="Very Satisfied" /> Very Satisfied
                              
 
                              </div>
 
-                             <div className="col-md-3">
+                             <div className="col-md-3 col-6">
 
                              <input type="radio" value="Very Unsatisfied" name="value" placeholder="Very Satisfied" /> Very Satisfied
                              
@@ -87,32 +87,32 @@ export const ReviewForm = () => {
 
                             </div>
 
-                            <label className="font-weight-bold" htmlFor="">
+                            <label className="font-weight-bold mt-md-0 mt-4" htmlFor="">
                             How do you rate our timeliness? </label>    
 
                             <br />
 
                             <div className="row">
 
-                             <div className="col-md-3">
+                             <div className="col-md-3 col-6">
 
                              <input type="radio" value="Very Satisfied" name="value" placeholder="Very Satisfied" /> Very Satisfied
                             
                              </div>
 
-                             <div className="col-md-3">
+                             <div className="col-md-3 col-6">
                              <input type="radio" value="Satisfied" name="value" placeholder="Very Satisfied" /> Very Satisfied
                             
                              </div>
 
-                             <div className="col-md-3">
+                             <div className="col-md-3 col-6">
 
                              <input type="radio" value="Unsatisfied" name="value" placeholder="Very Satisfied" /> Very Satisfied
                              
 
                              </div>
 
-                             <div className="col-md-3">
+                             <div className="col-md-3 col-6">
 
                              <input type="radio" value="Very Unsatisfied" name="value" placeholder="Very Satisfied" /> Very Satisfied
                              
@@ -121,32 +121,32 @@ export const ReviewForm = () => {
 
                             </div>
 
-                            <label className="font-weight-bold" htmlFor="">
+                            <label className="font-weight-bold mt-md-0 mt-4" htmlFor="">
                             How do you rate our quality? </label>    
 
                             <br />
 
                             <div className="row">
 
-                             <div className="col-md-3">
+                             <div className="col-md-3 col-6">
 
                              <input type="radio" value="Very Satisfied" name="value" placeholder="Very Satisfied" /> Very Satisfied
                             
                              </div>
 
-                             <div className="col-md-3">
+                             <div className="col-md-3 col-6">
                              <input type="radio" value="Satisfied" name="value" placeholder="Very Satisfied" /> Very Satisfied
                             
                              </div>
 
-                             <div className="col-md-3">
+                             <div className="col-md-3 col-6">
 
                              <input type="radio" value="Unsatisfied" name="value" placeholder="Very Satisfied" /> Very Satisfied
                              
 
                              </div>
 
-                             <div className="col-md-3">
+                             <div className="col-md-3 col-6">
 
                              <input type="radio" value="Very Unsatisfied" name="value" placeholder="Very Satisfied" /> Very Satisfied
                              
@@ -155,32 +155,32 @@ export const ReviewForm = () => {
 
                             </div>
 
-                            <label className="font-weight-bold" htmlFor="">
+                            <label className="font-weight-bold mt-md-0 mt-4" htmlFor="">
                             How do you rate our convenience? </label>    
 
                             <br />
 
                             <div className="row">
 
-                             <div className="col-md-3">
+                             <div className="col-md-3 col-6">
 
                              <input type="radio" value="Very Satisfied" name="value" placeholder="Very Satisfied" /> Very Satisfied
                             
                              </div>
 
-                             <div className="col-md-3">
+                             <div className="col-md-3 col-6">
                              <input type="radio" value="Satisfied" name="value" placeholder="Very Satisfied" /> Very Satisfied
                             
                              </div>
 
-                             <div className="col-md-3">
+                             <div className="col-md-3 col-6">
 
                              <input type="radio" value="Unsatisfied" name="value" placeholder="Very Satisfied" /> Very Satisfied
                              
 
                              </div>
 
-                             <div className="col-md-3">
+                             <div className="col-md-3 col-6">
 
                              <input type="radio" value="Very Unsatisfied" name="value" placeholder="Very Satisfied" /> Very Satisfied
                              
@@ -189,32 +189,32 @@ export const ReviewForm = () => {
 
                             </div>
 
-                            <label className="font-weight-bold" htmlFor="">
+                            <label className="font-weight-bold mt-md-0 mt-4" htmlFor="">
                             How do you rate our customer service? </label>    
 
                             <br />
 
                             <div className="row">
 
-                             <div className="col-md-3">
+                             <div className="col-md-3 col-6">
 
                              <input type="radio" value="Very Satisfied" name="value" placeholder="Very Satisfied" /> Very Satisfied
                             
                              </div>
 
-                             <div className="col-md-3">
+                             <div className="col-md-3 col-6">
                              <input type="radio" value="Satisfied" name="value" placeholder="Very Satisfied" /> Very Satisfied
                             
                              </div>
 
-                             <div className="col-md-3">
+                             <div className="col-md-3 col-6">
 
                              <input type="radio" value="Unsatisfied" name="value" placeholder="Very Satisfied" /> Very Satisfied
                              
 
                              </div>
 
-                             <div className="col-md-3">
+                             <div className="col-md-3 col-6">
 
                              <input type="radio" value="Very Unsatisfied" name="value" placeholder="Very Satisfied" /> Very Satisfied
                              
@@ -226,7 +226,7 @@ export const ReviewForm = () => {
 
                         <div className="col-md-12 mt-md-4">
 
-                        <label className="font-weight-bold" htmlFor="">
+                        <label className="font-weight-bold mt-md-0 mt-4" htmlFor="">
                             Based on your experience, how likely are you to recommend us to a friend or relative? </label>    
                             <input className="form-control" required type="text" />
   
@@ -234,7 +234,7 @@ export const ReviewForm = () => {
 
                         <div className="col-md-12 mt-md-4">
 
-                        <label className="font-weight-bold" htmlFor="">
+                        <label className="font-weight-bold mt-md-0 mt-4" htmlFor="">
                             Any additional Feedback? </label>    
                             
                             <textarea className="form-control" required rows="5"></textarea>
@@ -243,7 +243,7 @@ export const ReviewForm = () => {
 
                         <div className="col-md-12 mt-md-4">
 
-                        <label className="font-weight-bold" htmlFor="">
+                        <label className="font-weight-bold mt-md-0 mt-4" htmlFor="">
                             City </label>    
                             <input className="form-control" required type="text" />
   
@@ -251,7 +251,7 @@ export const ReviewForm = () => {
 
                         <div className="col-md-12 mt-md-4">
 
-                        <label className="font-weight-bold" htmlFor="">
+                        <label className="font-weight-bold mt-md-0 mt-4" htmlFor="">
                             State </label>    
                             <input className="form-control" required type="text" />
   
@@ -259,7 +259,7 @@ export const ReviewForm = () => {
 
                         <div className="col-md-12 mt-md-4">
 
-                        <label className="font-weight-bold" htmlFor="">
+                        <label className="font-weight-bold mt-md-0 mt-4" htmlFor="">
                             Review Title </label>    
                             <input className="form-control" required type="text" />
   

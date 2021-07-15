@@ -336,6 +336,11 @@ form input
    font-size: 16px;
 }
 
+form input[type='radio']
+{
+   height: unset !important;
+}
+
 form input::placeholder
 {
     color: #000 !important;

@@ -6,13 +6,13 @@ import { ReviewForm } from './ReviewForm';
 export const Testimonial = () => {
     return (
         <>
-           <section className="mt-md-5 mb-md-5">
+           <section className="mt-md-5 mt-5 mb-md-5 mb-5">
 
               <div className="container">
 
                 <h3 className="text-center"> TESTIMONIALS </h3>
 
-                <div className="row mt-md-5">
+                <div className="row mt-md-5 mt-5">
 
                    <div className="col-md-4">
 
@@ -47,7 +47,7 @@ export const Testimonial = () => {
 
                    </div>
 
-                   <div className="col-md-4">
+                   <div className="col-md-4 mt-md-0 mt-4">
 
                    <div className="client__content p-4">
 
@@ -81,7 +81,7 @@ export const Testimonial = () => {
 
                    </div>
 
-                   <div className="col-md-4">
+                   <div className="col-md-4 mt-md-0 mt-4">
 
                    <div className="client__content p-4">
 
