@@ -1,13 +1,537 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,500&display=swap');
+
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+body
+{
+    overflow-x: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a
+{
+    text-decoration: none !important;
 }
+
+.social-icon a span
+{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.navbar .container
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-light .navbar-toggler {
+    
+    border-color: transparent !important;
+}
+
+.navbar-light .navbar-toggler-icon {
+    
+    filter: invert(1);
+}
+
+.menu_active
+{
+    font-weight: bold;
+}
+
+.phone_no
+{
+    font-size: 24px;
+    font-weight: bold;
+    color: #1D1D1D;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+}
+
+.phone_no .phone_circle
+{
+    background: #EB1C24;
+    width: 36px;
+    height: 36px;
+    border-radius: 100px; 
+}
+
+.phone_no .phone-icon
+{
+   font-size: 14px;
+}
+
+.nav-menu
+{
+    background: linear-gradient(#046ab6 0%, #1991d0 100%);
+}
+
+.nav-menu .nav-link
+{
+   color: #fff !important;
+   text-transform: uppercase;
+   font-size: 16px;
+   font-weight: 600;
+}
+
+.home__banner
+{
+    background: url(./assets/images/home-banner.jpg);
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.services__banner
+{
+    background: url(./assets/images/services.jpg);
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+h1
+{
+    font-size: 44px;
+    font-weight: bold;
+}
+
+p
+{
+    font-size: 17px;
+}
+
+.paragraph
+{
+    font-size: 23px;
+}
+
+h3
+{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+h4
+{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+.btn-red
+{
+    background: #EA0B13;
+    border-radius: 4px;
+    border: 1px solid #EA0B13;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.btn-blue
+{
+    background: #0772BA;
+    border-radius: 4px;
+    border: 1px solid #0772BA;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.points li
+{
+    list-style: none;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.points li:before
+{
+    content: url(./assets/images/icons/tick.svg);
+    float: left;
+    margin-left: -30px;
+    width: 18px;
+}
+
+.points2 li
+{
+    list-style: none;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.points2 li:before
+{
+    content: url(./assets/images/icons/blue-tick.svg);
+    float: left;
+    margin-left: -30px;
+    width: 18px;
+}
+
+footer p
+{
+   color: #575757;
+   font-size: 17px;
+}
+
+/* services section */
+
+.services
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.service__content
+{
+    background: #fff;
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.18);
+    border-bottom: 5px solid #EA0B13;   
+}
+
+.service__content .btn-red
+{
+    position: absolute;
+    bottom: -20px;
+    left: 40px;
+} 
+
+.service__content2
+{
+    background: #fff;
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.18);
+    border-bottom: 5px solid #0772BA;   
+}
+
+.service__content2 .btn-blue
+{
+    position: absolute;
+    bottom: -20px;
+    left: 40px;
+} 
+
+/* end services section */
+
+/* start quotes */
+
+.quote__banner
+{
+    background: url(./assets/images/quote.jpg);
+    background-size: cover;
+}
+
+.contact__no
+{
+    text-decoration: none !important;
+}
+
+.contact__no h2
+{
+    font-weight: bold;
+    font-size: 54px;
+    color: #69B9EF;
+}
+
+/* end quotes */
+
+/* start call */
+
+.call__banner
+{
+    background: url(./assets/images/call.jpg);
+    background-size: cover;
+}
+
+/* end call */
+
+/* start about us page */
+
+.about_banner
+{
+    background: url(./assets/images/about.jpg);
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.left__gredient_blue__color
+{
+    background: linear-gradient(#046ab6 0%, #1991d0 100%);
+}
+
+/* start contact us page */
+
+
+/* start project page */
+
+.project_banner
+{
+    background: url(./assets/images/project.jpg);
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+/* start project page */
+
+
+.contact__banner
+{
+    background: url(./assets/images/contact.jpg);
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.contact__info__box
+{
+    background: linear-gradient(#046ab6 0%, #1991d0 100%);
+    margin-top: -15px;
+}
+
+.contact__info__box strong
+{
+    font-size: 24px;
+}
+
+.contact__info__box p
+{
+    font-size: 20px;
+}
+
+.contact__page__section
+{
+    background: url(././assets/images/painter2.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+/* end contact us page  */
+
+
+/* start contact us section  */
+
+.contact__form
+{
+    background: #EEEEEE;
+}
+
+.paint__bucket1 {
+    margin-top: 235px;
+}
+
+.painter
+{
+    margin-top: 300px;
+}
+
+form input
+{
+   height: 53px !important;
+   border-radius: 0px !important;
+   border: 1px solid #999999 !important;
+   color: #000;
+   font-size: 16px;
+}
+
+form input::placeholder
+{
+    color: #000 !important;
+    font-size: 16px !important;
+}
+
+form textarea
+{
+   height: 133px !important;
+   border-radius: 0px !important;
+   border: 1px solid #999999 !important;
+   resize: none;
+   color: #000;
+   font-size: 16px;
+}
+
+form textarea::placeholder
+{
+    color: #000 !important;
+    font-size: 16px !important;
+}
+
+/* end contact us section */
+
+/* end about us page */
+
+
+/* testimonial page */
+
+.client__content {
+    border: 1px solid #A5A5A5;
+}
+
+.client__pro
+{
+   margin-top: -15px;
+}
+
+.review__form
+{
+    background: #F4F4F4;
+}
+
+/* start media queries */
+
+@media (max-width: 480px)
+{
+    .logo {
+        margin: 0 auto;
+        display: table;
+    }
+
+    .finance {
+        display: none;
+    }
+
+    .phone_no {
+        display: none;
+    }
+
+    .home__banner {
+        
+        background-size: cover;
+        padding-top: 50px;
+        background-position: bottom;
+        padding-bottom: 50px;
+    }
+
+    .services__banner {
+        
+        background-size: cover;
+        padding-top: 50px;
+        background-position: bottom;
+        padding-bottom: 50px;
+        box-shadow: inset 0 0 0 2000px rgb(38 39 145 / 42%);
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    .services {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    .points li {
+        
+        font-size: 16px;
+    }
+
+    .points2 li {
+        
+        font-size: 16px;
+    }
+
+    .paragraph {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .contact__no h2 {
+        
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .quote__banner {
+        background-size: cover;
+        background-position: bottom;
+    }
+
+    .quote__banner .btn-red
+    {
+       margin: 0 auto;
+       display: table; 
+    }
+
+    .about_banner {
+        
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .paint__bucket1 {
+        margin-top: unset;
+    }
+
+    .painter {
+        margin-top: 30px;
+    }
+
+    .call__banner {
+        
+        box-shadow: inset 0 0 0 2000px rgb(38 39 145 / 42%);
+    }
+
+    .contact__info__box strong {
+        font-size: 20px;
+    }
+    
+    .contact__info__box p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 767px)
+{
+    .home__banner {
+        
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .finance {
+        display: none;
+    }
+
+    .about_banner {
+        
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .paint__bucket1 {
+        margin-top: 10px;
+    }
+
+    .painter {
+        margin-top: 50px;
+    }
+
+    .contact__banner {
+        
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .project_banner
+    {
+       padding-top: 100px;
+       padding-bottom: 100px;
+    }
+}
+
+/* end media queries */
